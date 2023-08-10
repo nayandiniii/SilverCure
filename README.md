@@ -1,6 +1,6 @@
-# SilverCure# SilverCure ![image](assets/imgs/logo.png)
+## SilverCure ![image](assets/imgs/logo.png)
 
-## INSPIRATION ![image](assets/imgs/motivation.png)
+ INSPIRATION ![image](assets/imgs/motivation.png)
 
 Lung cancer is a serious and common disease that affects millions of people around the world. It is caused by genetic damage to the cells in the lungs, often due to smoking or exposure to harmful substances. Lung cancer can cause symptoms such as difficulty breathing, coughing up blood, chest pain, hoarseness, headache and weight loss. Lung cancer can be diagnosed by various tests such as X-rays, CT scans, MRI scans, PET scans, sputum cytology and biopsy. Lung cancer can be treated by surgery, chemotherapy and radiation therapy, depending on the type and stage of the cancer.
 
