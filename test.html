@@ -205,61 +205,24 @@
 
 <!-- Your custom JavaScript code -->
 <script>
-    var nextButton = document.getElementById('submit');
+    document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("myForm");
 
-// Add a click event listener to the button
-nextButton.addEventListener('click', function() {
-    // Redirect the user to the next page
-    window.location.href = 'report.html';
-});
-    document.getElementById("myForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the form from actually submitting
-        // Get all sliders
-    const sliders = document.querySelectorAll('.form-control-range');
+    form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the default form submission behavior
 
-// Attach event listener to each slider
-sliders.forEach(slider => {
-    const sliderValue = slider.value;
-    const sliderLabel = slider.nextElementSibling;
-
-    // Update the numerical value above the slider
-    sliderLabel.textContent = sliderValue;
-
-    // Attach event listener to update the value when slider is moved
-    slider.addEventListener('input', () => {
-        const updatedValue = slider.value;
-        sliderLabel.textContent = updatedValue;
-    });
-});
-        var name = document.getElementById("name").value;
-        var age = document.getElementById("age").value;
-        var gender = document.querySelector('input[name="gender"]:checked').value;
-        var slider1Value = document.getElementById("slider1").value;
-        var slider2Value = document.getElementById("slider2").value;
-        var slider3Value = document.getElementById("slider3").value;
-        var slider4Value = document.getElementById("slider4").value;
-        var slider5Value = document.getElementById("slider5").value;
+        // Get the selected values
+        const name = document.getElementById("name").value;
+        const age = document.getElementById("age").value;
+        const gender = document.querySelector('input[name="gender"]:checked').value;
+        const slider1Value = document.getElementById("slider1").value;
+        const slider2Value = document.getElementById("slider2").value;
+        const slider3Value = document.getElementById("slider3").value;
+        const slider4Value = document.getElementById("slider4").value;
+        const slider5Value = document.getElementById("slider5").value;
         const languageSelect = document.getElementById('language');
         const selectedLanguage = languageSelect.value;
 
-
-        // Display values in report section
-        document.getElementById("report-name").textContent = name;
-        document.getElementById("report-age").textContent = age;
-        document.getElementById("report-gender").textContent = gender;
-        document.getElementById("report-slider1").textContent = slider1Value ;
-        document.getElementById("report-slider2").textContent = slider2Value ;
-        document.getElementById("report-slider3").textContent = slider3Value ;
-        document.getElementById("report-slider4").textContent = slider4Value ;
-        document.getElementById("report-slider5").textContent = slider5Value ;
-
-        // Get slider values
-        const sliderValues = {};
-        sliders.forEach(slider => {
-            const sliderId = slider.id;
-            const sliderValue = slider.value;
-            sliderValues[sliderId] = sliderValue;
-        });
         // Print values to console
         console.log("Name:", name);
         console.log("Age:", age);
@@ -269,8 +232,25 @@ sliders.forEach(slider => {
         console.log("Discomfort:", slider3Value);
         console.log("Hygiene:", slider4Value);
         console.log("Movements:", slider5Value);
-        console.log("Language:",selectedLanguage)
+        console.log("Language:", selectedLanguage);
+
+        // Navigate to report.html
+        window.location.href = "report.html";
     });
+
+    // Attach event listeners to sliders
+    const sliders = document.querySelectorAll('.form-control-range');
+    sliders.forEach(slider => {
+        const sliderLabel = slider.nextElementSibling;
+        sliderLabel.textContent = slider.value; // Initial value display
+
+        // Update value display when slider is moved
+        slider.addEventListener('input', () => {
+            sliderLabel.textContent = slider.value;
+        });
+    });
+});
+
 </script>
 
 </script>
