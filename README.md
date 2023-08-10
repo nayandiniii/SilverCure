@@ -1,4 +1,4 @@
-## SilverCure ![image](assets/imgs/logo.png)
+##                                        ![image](assets/imgs/logo.png)
 
  INSPIRATION ![image](assets/imgs/motivation.png)
 
