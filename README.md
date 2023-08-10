@@ -1,45 +1,48 @@
-##                                        ![image](assets/imgs/logo.png)
+<p align="center">
+  <img width="200" height="200" src="assets/imgs/logo.png"><br>
+ <font size="10"> Safeguarded Elderly Mental Health Diagnosis with AI & Blockchain</font>
+ </p>
 
- INSPIRATION ![image](assets/imgs/motivation.png)
+# INSPIRATION   <img width="250" height="200" src="assets/imgs/motivation.png"><br>
+The aging population is confronted with an increasingly pressing challenge concerning their mental health and well-being. As individuals advance in age, they become more susceptible to various mental disorders, which, if left undiagnosed and untreated, can significantly impact their quality of life and strain healthcare systems. 
 
-Lung cancer is a serious and common disease that affects millions of people around the world. It is caused by genetic damage to the cells in the lungs, often due to smoking or exposure to harmful substances. Lung cancer can cause symptoms such as difficulty breathing, coughing up blood, chest pain, hoarseness, headache and weight loss. Lung cancer can be diagnosed by various tests such as X-rays, CT scans, MRI scans, PET scans, sputum cytology and biopsy. Lung cancer can be treated by surgery, chemotherapy and radiation therapy, depending on the type and stage of the cancer.
+Schizophrenia is not just a diagnosis; it's a journey that demands understanding and compassion. One can see various symptoms like : hallucinations, delusions, impaired attention, change in behaviour and more , along with diagnosis using psychiatric evaluation and clinical interviews .Here we strive to arm individuals with knowledge about schizophrenia. By doing so, we aspire to minimize the social stigma surrounding mental health, encouraging open dialogue and nurturing acceptance.
 
-The goal of this research on lung cancer is to increase public awareness of the illness and ways to prevent it. Lung cancer is the leading cause of cancer deaths worldwide, but many people are unaware of its risk factors and symptoms. By doing this project on lung cancer, we can educate people about how to reduce the risk of developing lung cancer by quitting smoking, avoiding passive smoking and carcinogens at work. You can also inform people about the importance of early detection and treatment of lung cancer, which can improve survival rates and quality of life.
+Our mission is clear: to create awareness, foster empathy, and extend a helping hand to those impacted by this complex mental health issue.
 
-## What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
+Our goal in this endeavor is to enlighten minds and spark conversations. Just as a single spark can light up a dark room, a single piece of knowledge can dispel ignorance. Through this project, we aim to raise public consciousness about the realities of schizophrenia, its risk factors, and its symptoms. Despite its prevalence, many are unaware of the signs that can signal the onset of this condition. By sharing insights and information, we hope to empower individuals to recognize the signs, seek help, and foster supportive environments.
+
+## How is it working? 🗒️
 
 Lung cancer prediction using 9 machine learning classification models using Scikit-learn library in Python is a code implementation that aims to develop a predictive model for detecting lung cancer in patients. The code uses 9 different machine learning algorithms, including logistic regression, decision tree, k-nearest neighbor, Gaussian naive Bayes, multinomial naive Bayes, support vector classifier, random forest, multi-layer perceptron, and gradient boosting classifier, to predict the likelihood of lung cancer based on a range of variables. The dataset used in the code includes various columns such as gender, age, smoking, yellow fingers, anxiety, peer pressure, chronic disease, fatigue, allergy, wheezing, alcohol consuming, coughing, shortness of breath, swallowing difficulty, chest pain, and lung cancer. By analyzing these variables and using machine learning algorithms to identify patterns and correlations, the predictive models can provide accurate assessments of a patient's risk of developing lung cancer.
 
-## How I built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
+## Step - By - Step ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
-### ✅ First I Import libraries
-
-### ✅Understand the data
-
-### ✅Create a Correlation and visualize it
-
-### ✅Test Different Models
-
-### ✅Train the models using Intel oneDAL to get better results and faster computation(Intel oneAPI Data Analytics Library (oneDAL))
+### 🌟 Firstly Library Integration
+### 🌟 Grasp the Data's Essence
+### 🌟 Construct Correlation and Visualize
+### 🌟 Experiment with Various Models
+### 🌟 Employ Intel oneDAL for Enhanced Outcomes and Swifter Calculations (Intel oneAPI Data Analytics Library)
 ![intel](https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png)
 
-### ✅Save the model
+### 🌟 Safeguard your model for future utilization
 
 
-## What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+## Added to my Learning ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
 
 
 ![image](https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png)
 
-✅Building application using intel oneDAL:The Intel oneAPI Data Analytics Library (oneDAL) contributes to the acceleration of big data analysis by providing highly optimised algorithmic building blocks for all phases of data analytics (preprocessing, transformation, analysis, modelling, validation, and decision making) in batch, online, and distributed processing modes of computation.The library optimizes data ingestion along with algorithmic computation to increase throughput and scalability.
+✅Leveraging Intel oneDAL for Application Development: Harnessing the capabilities of the Intel oneAPI Data Analytics Library (oneDAL), our project is dedicated to accelerating comprehensive data analytics across the spectrum – from data preprocessing and transformation to analysis, modeling, validation, and decision-making. By optimizing algorithms for various processing modes, oneDAL enhances data ingestion, computational efficiency, and scalability.
 
-✅Building a lung cancer detection application involves a significant amount of research and development. During the process, I likely learned a number of things.
+✅Crafting a Schizophrenia Susceptibility Prediction Application involves a meticulous journey of research and development. Along this path, I have cultivated a rich tapestry of insights and skills.
 
-✅Machine Learning: I likely learned about different machine learning algorithms and how they can be applied to detect lung cancer.
+✅Mastery of Machine Learning Techniques: A deep comprehension of diverse machine learning algorithms was achieved, with a specific focus on their relevance in predicting an individual's vulnerability to schizophrenia.
 
-✅Data Analysis: I likely gained experience in collecting and analyzing large amounts of data to train our machine learning models.
+✅Data Analysis Proficiency: Hands-on experience was gained in aggregating and analyzing expansive datasets to train machine learning models customized for predicting susceptibility to schizophrenia.
 
-✅Collaboration: Building a project like this likely required collaboration with a team of experts in various fields, machine learning, and data analysis, and I likely learned the importance of working together to achieve common goals.
+✅Synergistic Collaborations: The realization of this project necessitated seamless teamwork across a multidisciplinary spectrum, encompassing machine learning, data analysis, and beyond. This collaborative endeavor underscored the pivotal role of collective effort in realizing shared aspirations.
 
-These are just a few examples of the knowledge and skills that i likely gained while building this project. 
-Overall, building a lung cancer application is a challenging and rewarding experience that requires a combination of technical expertise and knowledge.
+✅Integration of Natural Language Processing (NLP): Our project’s innovation extends to the incorporation of NLP techniques, further enriching the predictive model's capabilities.
+
+These instances collectively signify the proficiencies and aptitudes that were nurtured during the development of this predictive model. In essence, the creation of a Schizophrenia Susceptibility Prediction Application is a rewarding challenge that necessitates a fusion of technical prowess and comprehensive knowledge.
