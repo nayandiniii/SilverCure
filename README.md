@@ -43,7 +43,7 @@ Lung cancer prediction using 9 machine learning classification models using Scik
 ![intel](https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png)
 
 ### 🌟 Safeguard your model for future utilization
-### 🌟 Deploy the model
+### 🌟 Deploy the model on pythonanywhere
 
 ## Added to my Learning 📝
 
