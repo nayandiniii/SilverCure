@@ -16,6 +16,14 @@ Our goal in this endeavor is to enlighten minds and spark conversations. Just as
 
 Lung cancer prediction using 9 machine learning classification models using Scikit-learn library in Python is a code implementation that aims to develop a predictive model for detecting lung cancer in patients. The code uses 9 different machine learning algorithms, including logistic regression, decision tree, k-nearest neighbor, Gaussian naive Bayes, multinomial naive Bayes, support vector classifier, random forest, multi-layer perceptron, and gradient boosting classifier, to predict the likelihood of lung cancer based on a range of variables. The dataset used in the code includes various columns such as gender, age, smoking, yellow fingers, anxiety, peer pressure, chronic disease, fatigue, allergy, wheezing, alcohol consuming, coughing, shortness of breath, swallowing difficulty, chest pain, and lung cancer. By analyzing these variables and using machine learning algorithms to identify patterns and correlations, the predictive models can provide accurate assessments of a patient's risk of developing lung cancer.
 
+## Technologies Used  <img width="100" height="100" src="assets/imgs/tech.png"><br>
+
+- Artificial Intelligence
+- Machine Learning
+- Blockchain
+- Web Technologies
+
+## Features 
 ## Step - By - Step ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
 ### 🌟 Firstly Library Integration
@@ -26,7 +34,7 @@ Lung cancer prediction using 9 machine learning classification models using Scik
 ![intel](https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png)
 
 ### 🌟 Safeguard your model for future utilization
-
+### 🌟 Deploy the model
 
 ## Added to my Learning 📝
 
