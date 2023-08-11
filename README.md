@@ -1,9 +1,9 @@
+# Safeguarded Elderly Mental Health Diagnosis with AI & Blockchain
 <p align="center">
   <img width="200" height="200" src="assets/imgs/logo.png"><br>
- <font size="10"> Safeguarded Elderly Mental Health Diagnosis with AI & Blockchain</font>
  </p>
 
-# INSPIRATION   <img width="150" height="100" src="assets/imgs/motivation.png"><br>
+## INSPIRATION   <img width="150" height="100" src="assets/imgs/motivation.png"><br>
 The aging population is confronted with an increasingly pressing challenge concerning their mental health and well-being. As individuals advance in age, they become more susceptible to various mental disorders, which, if left undiagnosed and untreated, can significantly impact their quality of life and strain healthcare systems. 
 
 Schizophrenia is not just a diagnosis; it's a journey that demands understanding and compassion. One can see various symptoms like : hallucinations, delusions, impaired attention, change in behaviour and more , along with diagnosis using psychiatric evaluation and clinical interviews .Here we strive to arm individuals with knowledge about schizophrenia. By doing so, we aspire to minimize the social stigma surrounding mental health, encouraging open dialogue and nurturing acceptance.
