@@ -23,7 +23,16 @@ Lung cancer prediction using 9 machine learning classification models using Scik
 - Blockchain
 - Web Technologies
 
-## Features 
+
+
+## Features <img width="100" height="100" src="assets/imgs/features.png"><br>
+
+- Predictions for Schizophreniaa 
+- Generating a summarized report
+- Privacy and Security
+- Works with multiple languages
+- User-friendly interface
+
 ## Step - By - Step ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 
 ### 🌟 Firstly Library Integration
