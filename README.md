@@ -6,7 +6,7 @@
 ## INSPIRATION   <img width="150" height="100" src="AllModels/imgs/motivation.png"><br>
 The aging population is confronted with an increasingly pressing challenge concerning their mental health and well-being. As individuals advance in age, they become more susceptible to various mental disorders, which, if left undiagnosed and untreated, can significantly impact their quality of life and strain healthcare systems. 
 
-Schizophrenia is not just a diagnosis; it's a journey that demands understanding and compassion. One can see various symptoms like : hallucinations, delusions, impaired attention, change in behaviour and more , along with diagnosis using psychiatric evaluation and clinical interviews .Here we strive to arm individuals with knowledge about schizophrenia. By doing so, we aspire to minimize the social stigma surrounding mental health, encouraging open dialogue and nurturing acceptance.
+Schizophrenia is not just a diagnosis; it's a journey that demands understanding and compassion. One can see various symptoms like : hallucinations, delusions, impaired attention, change in behaviour and more , along with diagnosis using psychiatric evaluation and clinical interviews. Here we strive to arm individuals with knowledge about schizophrenia. By doing so, we aspire to minimize the social stigma surrounding mental health, encouraging open dialogue and nurturing acceptance.
 
 Our mission is clear: to create awareness, foster empathy, and extend a helping hand to those impacted by this complex mental health issue.
 
@@ -14,7 +14,7 @@ Our goal in this endeavor is to enlighten minds and spark conversations. Just as
 
 ## How is it working? 🗒️
 
-Schizophrenia prediction using 7 machine learning classification models using Scikit-learn library in Python is a code implementation that aims to develop a predictive model for predicting if a person is prone to schizophrenia or not. The code uses 7 different machine learning algorithms, including logistic regression, decision tree, k-nearest neighbor, Gaussian naive Bayes, multinomial naive Bayes, support vector classifier, random forest, to predict the likelihood of being prone to schizophrenia  based on a range of variables. The dataset used in the code includes various columns such as gender, age, fatigue, restlessness, pain, changes in hygiene, changes in movement scores. By analyzing these variables and using machine learning algorithms to identify patterns and correlations, the predictive models can provide accurate assessments of a patient's risk of developing lung cancer.
+Schizophrenia prediction by applying developing two models on two different datasets using the Scikit-learn library in Python is a code implementation that aims to develop a predictive model for predicting if a person is prone to schizophrenia or not. The code uses the Logistic regression classification technique which was found to be most accurate after comparing 7 different machine learning algorithms including like decision tree, k-nearest neighbor, Gaussian naive Bayes, multinomial naive Bayes, support vector classifier and random forest to predict the likelihood of being prone to schizophrenia based on a range of variables. The first dataset used in the code includes various columns such as gender, age, fatigue, restlessness, pain, changes in hygiene, and changes in movement scores. By analyzing these variables and using machine learning algorithms to identify patterns and correlations, the predictive models can provide accurate assessments of a patient's risk of being prone to schizophrenia. The other dataset used in the code includes text and labels analyzing which we trained a model to predict if the text spoken by the person shows fine or poor mental health condition. 
 
 ## Technologies Used  <img width="100" height="100" src="AllModels/imgs/tech.png"><br>
 
@@ -27,7 +27,7 @@ Schizophrenia prediction using 7 machine learning classification models using Sc
 
 ## Features <img width="100" height="100" src="AllModels/imgs/features.png"><br>
 
-- Predictions for Schizophreniaa 
+- Predictions for Schizophrenia 
 - Generating a summarized report
 - Privacy and Security
 - Works with multiple languages
