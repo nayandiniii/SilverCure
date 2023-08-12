@@ -109,10 +109,6 @@ def report():
         # Predict label
         predicted_label = model.predict(preprocessed_input)
         # Print the predicted label
-        if "negative" in file_name:
-            predicted_label = 1
-        else:
-            predicted_label = 0
         print("Predicted Label:", predicted_label) # RESULT For Audio
         ############################################################## CHATGPT API
         # prompt = "\"Low Proneness to schizophrenia & Fine Mental Health\" Generate short report on a persons mental issue on Diagnosis, Symptoms and Presenting Issues, Functional Impairment, Treatment Plan and Interventions and Progress and Future Recommendations specifying only the key terms. Atlast give a summary on the report generated in  250 words."  #PROMT TEXT
